@@ -1,0 +1,13 @@
+/* CSS untuk Top Bar */
+.top-bar {
+    font-size: 0.85rem; /* Membuat font sedikit lebih kecil */
+}
+
+/* CSS untuk Warna Kustom Navbar */
+.bg-jurusan {
+    /* Ini adalah warna ungu dari contoh Anda (perkiraan) */
+    /* Ganti kode hex #4F237A dengan warna pilihan Anda */
+    background-color: #4F237A; 
+}
+
+/* (Anda bisa tambahkan CSS kustom lainnya di sini) */

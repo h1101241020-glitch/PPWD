@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Akademik - Sistem Informasi UNTAN</title>
+    
+    <link rel="stylesheet" href="sisfo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Nunito+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="logo_untan.png" alt="Logo UNTAN">
+                <div class="logo-text">
+                    <strong>Sistem Informasi</strong>
+                    <span>Universitas Tanjungpura</span>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="sisfo.html">Beranda</a></li> 
+                    <li><a href="dosen.html">Dosen</a></li> 
+                    <li><a href="akademik.html" class="active">Akademik</a></li> 
+                    
+                </ul>
+            </nav>
+            <button class="menu-toggle"><i class="fas fa-bars"></i></button>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-title">
+            <div class="container">
+                <h2>Kurikulum Akademik</h2>
+                <p>Mata Kuliah Program Studi Sistem Informasi UNTAN</p>
+            </div>
+        </section>
+
+        <section class="kurikulum-section">
+            <div class="container">
+                
+                <div class="curriculum-tabs">
+                    <button class="tab-button active" data-tab="wajib">Wajib</button>
+                    <button class="tab-button" data-tab="pilihan">Pilihan</button>
+                    <button class="tab-button" data-tab="mbkm">Moda MBKM</button>
+                </div>
+
+                <div class="curriculum-content">
+                    
+                    <div id="wajib" class="tab-pane active">
+                        <h2>Semester 1</h2>
+                        <table class="semester-table">
+                            <thead>
+                                <tr>
+                                    <th>No</th>
+                                    <th>Nama Mata Kuliah (Indonesia)</th>
+                                    <th>Nama Mata Kuliah (Inggris)</th>
+                                    <th>SKS</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Matematika</td>
+                                    <td>Mathematics</td>
+                                    <td>3</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Bahasa Inggris</td>
+                                    <td>English</td>
+                                    <td>2</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Manajemen dan Organisasi</td>
+                                    <td>Management and Organization</td>
+                                    <td>3</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>Bahasa Indonesia</td>
+                                    <td>Indonesian Language</td>
+                                    <td>3</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>Aljabar Linear</td>
+                                    <td>Linear Algebra</td>
+                                    <td>2</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>Pemrograman Komputer</td>
+                                    <td>Computer Programming</td>
+                                    <td>2</td>
+                                </tr>
+                                <tr>
+                                    <td>7</td>
+                                    <td>Praktikum Pemrograman Komputer</td>
+                                    <td>Computer Programming Practicum</td>
+                                    <td>1</td>
+                                </tr>
+                                <tr>
+                                    <td>8</td>
+                                    <td>Pengantar Teknologi dan Sistem Informasi</td>
+                                    <td>Introduction to Technology and System Information</td>
+                                    <td>3</td>
+                                </tr>
+                                <tr>
+                                    <td>9</td>
+                                    <td>Manajemen Proses Bisnis</td>
+                                    <td>Business Process Management</td>
+                                    <td>2</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <h2>Semester 2</h2>
+                        <p>(Data untuk semester 2 dan selanjutnya bisa ditambahkan di sini...)</p>
+                    </div>
+
+                    <div id="pilihan" class="tab-pane">
+                        <h2>Mata Kuliah Pilihan</h2>
+                        <p>(Data untuk mata kuliah pilihan bisa ditambahkan di sini...)</p>
+                    </div>
+
+                    <div id="mbkm" class="tab-pane">
+                        <h2>Moda MBKM</h2>
+                        <p>(Data untuk Moda MBKM bisa ditambahkan di sini...)</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-col">
+                <img src="https://sisfo.untan.ac.id/wp-content/uploads/2020/02/LOGO-UNTAN-1-300x300-1-150x150.png" alt="Logo UNTAN" class="footer-logo">
+                <h4>Program Studi Sistem Informasi</h4>
+                <p>Fakultas MIPA, Universitas Tanjungpura</p>
+                <p>Jl. Prof. Dr. H Hadari Nawawi, Pontianak, Kalimantan Barat</p>
+            </div>
+            <div class="footer-col">
+                <h4>Tautan Penting</h4>
+                <ul>
+                    <li><a href="#">Universitas Tanjungpura</a></li>
+                    <li><a href="#">Fakultas MIPA</a></li>
+                    <li><a href="#">Penerimaan Mahasiswa Baru</a></li>
+                    <li><a href="#">Sistem Informasi Akademik</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Hubungi Kami</h4>
+                <p><i class="fas fa-envelope"></i> sisfo@untan.ac.id</p>
+                <p><i class="fas fa-phone"></i> (0561) 123-456</p>
+                <div class="social-media">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Program Studi Sistem Informasi UNTAN. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Menunggu seluruh konten halaman dimuat
+        window.addEventListener('DOMContentLoaded', () => {
+            
+            // Ambil semua tombol tab dan semua panel konten
+            const tabButtons = document.querySelectorAll('.tab-button');
+            const tabPanes = document.querySelectorAll('.tab-pane');
+
+            // Tambahkan event click ke setiap tombol tab
+            tabButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    
+                    // Ambil target panel dari atribut 'data-tab' tombol
+                    const targetPaneId = button.getAttribute('data-tab');
+                    
+                    // Hapus kelas 'active' dari SEMUA tombol dan SEMUA panel
+                    tabButtons.forEach(btn => btn.classList.remove('active'));
+                    tabPanes.forEach(pane => pane.classList.remove('active'));
+                    
+                    // Tambahkan kelas 'active' ke tombol yang DIKLIK
+                    button.classList.add('active');
+                    
+                    // Tambahkan kelas 'active' ke panel yang SESUAI
+                    document.getElementById(targetPaneId).classList.add('active');
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>
